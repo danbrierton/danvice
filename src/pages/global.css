@@ -1,0 +1,33 @@
+.flexLeft{
+   display: flex;
+   justify-self: flex-start;
+}
+.flexRight{
+   display: flex;
+   justify-self: flex-end;
+}
+.flexCenter{
+   display: flex;
+   justify-self: center;
+}
+.flexTop{
+   display: flex;
+   align-self: flex-start;
+}
+.flexBottom{
+   display: flex;
+   align-self: flex-end;
+}
+.flexMiddle{
+   display: flex;
+   align-self: middle;
+}
+.italic{
+   font-style: italic;
+}
+.bold{
+   font-weight: bold;
+}
+.notBold{
+   font-weight: normal;
+}

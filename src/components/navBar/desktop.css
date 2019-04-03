@@ -1,0 +1,30 @@
+#navBar_bigDiv{
+   /* border: 1pt solid red; */
+   display: flex;
+   justify-content: space-evenly;
+   background-color: teal;
+}
+.navBar_Topics{
+   /* border: 1pt solid red; */
+   height: 2rem;
+   width: 20vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: lavender;
+   font-weight: bold;
+   cursor: default;
+}
+.navBar_blankDiv{
+   height: 1.5rem;
+   width: 20vw;
+}
+.navBar_Topics:hover{
+   background-color: lavender;
+   color: black;
+}
+.navBar_Topic_Images{
+   max-height: 1rem;
+   max-width: 1rem;
+   margin: .5rem;
+}

@@ -1,0 +1,22 @@
+div, h1, h2, h3, h4, h5, h6{
+   /* border: 1pt solid red; */
+}
+#header_bigDiv{
+   display: flex;
+   justify-content: left;
+   background-color: black;
+}
+.header_text{
+   margin:  .3rem;
+   padding: 0;
+}
+#header_name{
+   /* border: 1pt solid red; */
+   color: teal;
+   margin-left: 1rem;
+}
+#header_phrase{
+   /* border: 1pt solid red; */
+   padding-bottom: .2rem;
+   color: lavender;
+}
