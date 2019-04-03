@@ -31,3 +31,26 @@
 .notBold{
    font-weight: normal;
 }
+
+/* ----------DESKTOP LAYOUT----------- */
+#landingPage_desktop{
+   display: grid;
+   grid-template-columns: 100vw;
+   grid-template-rows: 5rem calc(100vh - 8rem) 3rem;
+}
+.landingPage_desktop_top{
+   grid-row: 1/2;
+   grid-column: 1/-1;
+   /* border: 1pt solid red */
+}
+.landingPage_desktop_middle{
+   grid-row: 2/3;
+   grid-column: 1/-1;
+   overflow-x: scroll;
+}
+.landingPage_desktop_bottom{
+   grid-row: 3/4;   
+   grid-column: 1/-1;
+   background-color: black;
+   color: white;
+}
