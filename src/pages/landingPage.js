@@ -27,15 +27,22 @@ class LandingPage extends React.Component{
    
    render(){
       return(
-         <div>
+         <React.Fragment>
             <MediaQuery    query="(min-device-width: 1224px)">
-               <DesktopHeader/>
-               <DesktopNavBar
-                  handleTopicChange = {this.handleTopicChange}/>
-               {
-                  this.state.currentTopic
-               }
-               <DesktopFooter/>
+               <div id="landingPage_desktop">
+                  <div className="landingPage_desktop_top">
+                     <DesktopHeader/>
+                     <DesktopNavBar handleTopicChange = {this.handleTopicChange}/>
+                  </div>
+                  <div className="landingPage_desktop_middle">
+                     {
+                        this.state.currentTopic
+                     }
+                  </div>
+                  <div className="landingPage_desktop_bottom">
+                     <DesktopFooter/>
+                  </div>
+               </div>
             </MediaQuery>
 
             <MediaQuery    query="(max-device-width: 1224px)">
@@ -43,7 +50,7 @@ class LandingPage extends React.Component{
                   Sorry, this page is not mobile friendly yet. Please try again later! 
                </div>
             </MediaQuery>
-         </div>
+         </React.Fragment>
       )
    }
 }

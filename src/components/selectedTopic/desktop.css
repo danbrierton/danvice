@@ -1,0 +1,13 @@
+/* ----------PROGRAMMING---------- */
+.progTopic_categories{
+   margin: 2rem;
+   font-weight: bold;
+}
+
+.progTopic_categories > ul {
+   font-weight: normal;
+}
+
+/* ----------MILITARY---------- */
+
+/* ----------LIFE---------- */

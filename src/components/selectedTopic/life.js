@@ -4,7 +4,7 @@ import   React          from  'react'
 const LifeTopic = () => {
    return(
       <div id="lifeTopic">
-         This is the Life Topic Page
+         Life content coming soon!
       </div>
    )
 }

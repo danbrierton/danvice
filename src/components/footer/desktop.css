@@ -1,6 +1,7 @@
 #footer_bigDiv{
-   margin: 1rem;
+   margin: auto 1rem;
    font-size: 8pt;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
