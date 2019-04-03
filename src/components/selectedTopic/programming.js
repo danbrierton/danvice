@@ -1,5 +1,5 @@
 import   React          from  'react'
-// import                        './desktop.css'
+import                        './desktop.css'
 
 const ProgrammingTopic = () => {
    return(
@@ -14,8 +14,6 @@ const ProgrammingTopic = () => {
             Online Schools and Courses
             <ul>
                <li>External Resource: <a href="https://www.codecademy.com/learn">Codecademy</a></li>
-            </ul>
-            <ul>
                <li>External Resource: <a href="https://www.w3schools.com/">W3Schools</a></li>
             </ul>
          </div>
@@ -48,12 +46,9 @@ const ProgrammingTopic = () => {
             JavaScript
             <ul>
                <li>External Documentation: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript Developer Documentation</a> by moz://a</li>
-            </ul>
-            <ul>
                <li>External Library: <a href="https://www.npmjs.com/">Node Package Manager</a> by npm</li>
-            </ul>
-            <ul>
                <li>External Library: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">Yarn Package Manager</a> by Yarn</li>
+               <li>External Video: <a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ">What the heck is the event loop anyway?</a> by Philip Roberts</li>
             </ul>
          </div>
          <div class="progTopic_categories">
