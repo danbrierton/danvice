@@ -4,7 +4,7 @@ import   React          from  'react'
 const MilitaryTopic = () => {
    return(
       <div id="milTopic">
-         This is the Military Topic Page
+         Military content coming soon!
       </div>
    )
 }
