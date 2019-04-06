@@ -55,6 +55,19 @@ const ProgrammingTopic = () => {
             React
             <ul>
                <li>External Documentation: <a href="https://reactjs.org/docs/getting-started.html">React Developer Documentation</a> by Facebook</li>
+               <li>External Documentation: <a href="https://reacttraining.com/react-router/web/guides/basic-components">React Router Documentation</a> by React Training</li>
+            </ul>
+         </div>
+         <div class="progTopic_categories">
+            SQL
+            <ul>
+               <li>External Article: <a href="https://www.codecademy.com/articles/sql-commands">SQL Commands</a> by Codecademy</li>
+            </ul>
+         </div>
+         <div class="progTopic_categories">
+            Markdown
+            <ul>
+               <li>External Article: <a href="https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown">Syntax Highlighting</a> by Codebase</li>
             </ul>
          </div>
       </div>
